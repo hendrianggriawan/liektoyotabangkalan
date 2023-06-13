@@ -214,7 +214,7 @@ section{
 }
 @media (max-width:680px){
     .hero-img img{
-        width: 100%;
+        width: 1000%;
         height: auto;
     }
         background.hero{
