@@ -19,7 +19,7 @@ header{
     background: transparent;
 }
 .body{
-    background:url(green-hd-wallpaper.jpg)
+    background-picture:url(green-hd-wallpaper.jpg)
 }
 .logo{
     font-size: 40px;
