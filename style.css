@@ -223,5 +223,11 @@ section{
         height: 1000%;
         width: 1000%;
     }
-
+}
+.hero-text h4{
+    font-size: 30px;
+}
+.hero-text p{
+    font-size:15px;
+    margin: 7px;
 }
