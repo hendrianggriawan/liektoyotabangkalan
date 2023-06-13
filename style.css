@@ -217,7 +217,11 @@ section{
         width: 100%;
         height: auto;
     }
-}
-.idcard{
+        background.hero{
+        background-position: center;
+        background-size: cover;
+        height: 1000%;
+        width: 1000%;
+    }
 
 }
