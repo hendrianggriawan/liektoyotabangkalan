@@ -35,7 +35,7 @@ header{
     transition: all .55s ease;
 }
 .navlist a:hover{
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid orange;
     color: orange;
 }
 #menu-icon{
@@ -49,6 +49,7 @@ header{
     height: 100%;
     width: 100%;
     min-height: 100vh;
+    min-width: 100vw;
     background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
     position: relative;
     display: grid;
@@ -145,12 +146,14 @@ section{
         padding: 0 3%;
         transition: .2s;
     }
+    background-size: 100%;
 }
 @media (max-width:1460px){
     section{
         padding:0 12%;
         transition: .2s;
     }
+    background-size: 100%;
 }
 @media (max-width:1340px){
     .hero-img img {
@@ -164,6 +167,7 @@ section{
     .hero-text h5{
         margin-bottom: 25px;
     }
+    background-size: 100%;
 }
 @media (max-width:1195px){
     section{
@@ -185,6 +189,7 @@ section{
         gap: 1rem;
         grid-template-columns: 1fr;
     }
+    background-size: 100%;
 }
 @media (max-width:990px){
     #menu-icon{
@@ -211,18 +216,20 @@ section{
     .navlist.open{
         right: 0;
     }
+    background-size: 100%;
 }
 @media (max-width:680px){
     .hero-img img{
-        width: 100%;
+        width: 70%;
         height: auto;
     }
     background.hero{
         background-position: center;
         background-size: cover;
-        height: 1000%;
-        width: 1000%;
+        height: 100%;
+        width: 100%;
     }
+    background-size: 100%;
 }
 .hero-text h4{
     font-size: 30px;
